@@ -7,6 +7,10 @@ const app = express();
 // Connect Database
 connectDB();
 
+// Init Middleware
+// By doing this we can except body data
+app.use(express.json({ extended: false }));
+
 app.get("/", (req, res) =>
   res.json({ msg: "Welcome to the contact keeper API" })
 );

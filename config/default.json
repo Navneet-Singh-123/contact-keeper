@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://navneet:123@contactkeeper.kh8cs.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://navneet:123@contactkeeper.kh8cs.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }
